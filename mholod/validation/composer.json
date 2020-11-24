@@ -1,0 +1,24 @@
+{
+    "name": "mholod/validation",
+    "description": "Example implementation of strategy pattern",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mitar Holod",
+            "email": "mholod@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MHolod\\Validation\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MHolod\\Validation\\ValidationServiceProvider"
+            ]
+        }
+    }
+}
